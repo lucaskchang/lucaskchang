@@ -3,13 +3,13 @@
     <div class="min-h-screen w-full flex flex-col p-10 pb-12 text-center">
       <p class="text-6xl md:text-7xl font-bold">School</p>
       <img src="~/assets/svgs/underline_long3.svg" class="mx-auto" />
-      <p class="text-2xl my-10">I am currently a Junior at <a href="https://www.bayschoolsf.org/" target="_blank" class="font-bold underline-offset-4 decoration-yellow-400 decoration-2 underline">The Bay School of San Francisco</a></p>
+      <p class="text-2xl my-10">I am currently a Junior at <a href="https://www.bayschoolsf.org/" target="_blank" class="font-bold underline-offset-4 decoration-yellow-400 decoration-2 underline">The Bay School of San Francisco</a>. I am interested in math, history, and urban planning!</p>
     
       <p class="text-5xl mt-20">Some of my School Projects</p>
       <img src="~/assets/svgs/underline_long2.svg" class="mx-auto" />
       <div class="flex flex-wrap container mx-auto mt-12">
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-          <div class="rounded-sm ring-4 overflow-hidden p-6 ring-black dark:ring-slate-50">
+          <div class="rounded-sm ring-4 overflow-hidden p-6 ring-black dark:ring-slate-50 z-50">
             <p class="text-3xl md:text-4xl text-center font-bold caption">{{ projects['ecology'].title }}</p>
             <img src="~/assets/svgs/mini_line.svg" class="mx-auto" />
             <p class="text-xl md:text-2xl text-center mt-4">{{ projects['ecology'].description }}</p>
@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-          <div class="rounded-sm ring-4 overflow-hidden p-6 ring-black dark:ring-slate-50">
+          <div class="rounded-sm ring-4 overflow-hidden p-6 ring-black dark:ring-slate-50 z-50">
             <p class="text-3xl md:text-4xl text-center font-bold caption">{{ projects['rna'].title }}</p>
             <img src="~/assets/svgs/mini_line.svg" class="mx-auto" />
             <p class="text-xl md:text-2xl text-center mt-4">{{ projects['rna'].description }}</p>
@@ -39,7 +39,7 @@
           </div>
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-          <div class="rounded-sm ring-4 overflow-hidden p-6 ring-black dark:ring-slate-50">
+          <div class="rounded-sm ring-4 overflow-hidden p-6 ring-black dark:ring-slate-50 z-50">
             <p class="text-3xl md:text-4xl text-center font-bold caption">Census Sampling</p>
             <img src="~/assets/svgs/mini_line.svg" class="mx-auto" />
             <p class="text-xl md:text-2xl text-center mt-4">An explanation of how and why sampling can be used in the census</p>

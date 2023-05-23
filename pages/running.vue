@@ -29,7 +29,7 @@
       <p class="text-5xl mt-20">Related Projects</p>
       <div class="flex flex-wrap container mx-auto mt-12">
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-          <div class="rounded-sm ring-4 overflow-hidden p-6 ring-black dark:ring-slate-50">
+          <div class="rounded-sm ring-4 overflow-hidden p-6 ring-black dark:ring-slate-50 z-50">
             <p class="text-3xl md:text-4xl text-center font-bold caption">{{ projects['xctf'].title }}</p>
             <img src="~/assets/svgs/mini_line.svg" class="mx-auto" />
             <p class="text-xl md:text-2xl text-center mt-4">{{ projects['xctf'].description }}</p>
