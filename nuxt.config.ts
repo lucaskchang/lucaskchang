@@ -1,9 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    app: {
+        head: {
+            title: 'Lucas K Chang',
+        }
+    },
     modules: [
         '@nuxtjs/tailwindcss',
         '@nuxtjs/color-mode',
-        '@nuxt/image-edge',
         'nuxt-icon',
     ],
     css: [
