@@ -1,38 +1,42 @@
 {
-    "bayclock": {
+    "Bay Clock": {
       "title": "Bay Clock",
       "description": "The schedule for the Bay School of San Francisco",
-      "icon": "mdi:clock-time-four-outline",
       "link": "https://bayclock.org"
     },
-    "ed-nalysis": {
+    "Ed-nalysis": {
       "title": "Ed-nalysis",
       "description": "An analysis of Ed Sheeran lyrics",
-      "icon": "ph:microphone-stage",
       "link": "https://ed.lucaskchang.com"
     },
-    "xctf": {
+    "Bay School XC/TF": {
       "title": "Bay School XC/TF",
       "description": "Player profiles and PRs for the Bay School's XC/TF team",
-      "icon": "solar:running-2-linear",
       "link": "https://xctf.lucaskchang.com"
     },
-    "ecology": {
+    "Community Ecology": {
       "title": "Community Ecology",
       "description": "An explanation of community ecology",
-      "icon": "ph:leaf",
       "link": "https://ecology.lucaskchang.com"
     },
-    "data": {
+    "Data Visualizations": {
       "title": "Data Visualizations",
       "description": "A collection of my data visualization projects",
-      "icon": "material-symbols:insert-chart-outline",
       "link": "https://data.lucaskchang.com"
     },
-    "rna": {
+    "Crop and Machine Check": {
+      "title": "Crop and Machine Check",
+      "description": "A tool for farmers to check their crops and machines in Stardew Valley",
+      "link": "https://www.nexusmods.com/users/121487748?tab=user+files"
+    },
+    "RNA Splicing": {
       "title": "RNA Splicing",
       "description": "A demonstration of how alternative RNA splicing works",
-      "icon": "ph:dna",
       "link": "https://rna.lucaskchang.com"
+    },
+    "Census Sampling": {
+      "title": "Census Sampling",
+      "description": "An explanation of how and why sampling can be used in the census",
+      "link": "https://lukajaa.github.io/census-sample/#/"
     }
-  }
+}

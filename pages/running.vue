@@ -28,31 +28,17 @@
 
       <p class="text-5xl mt-20">Related Projects</p>
       <div class="flex flex-wrap container mx-auto mt-12">
-        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-          <div class="rounded-sm ring-4 overflow-hidden p-6 ring-black dark:ring-slate-50 z-50">
-            <p class="text-3xl md:text-4xl text-center font-bold caption">{{ projects['xctf'].title }}</p>
-            <img src="~/assets/svgs/mini_line.svg" class="mx-auto" />
-            <p class="text-xl md:text-2xl text-center mt-4">{{ projects['xctf'].description }}</p>
-            <a :href="projects['xctf'].link" target="_blank" class="flex flex-row mt-8 items-center text-xl md:text-2xl transition ease-in-out hover:scale-105">
-              <div class="flex flex-col">
-                Check it out!
-              </div>
-              <div class="flex flex-col">
-                <img src="~/assets/svgs/link_arrow.svg" class="ml-2 h-8 w-8" />
-              </div>
-            </a>
-          </div>
-        </div>
+        <ProjectCard :project="projects['Bay School XC/TF']" />
       </div>
     </div>
+
     <BackButton />
-    <img src="~/assets/svgs/sprinkle.svg" class="fixed top-20 left-20 w-0 lg:w-40 2xl:w-64 opacity-50" />
-    <img src="~/assets/svgs/sprinkle.svg" class="fixed bottom-20 left-20 w-0 lg:w-40 rotate-90 2xl:w-64 opacity-50" />
-    <img src="~/assets/svgs/sprinkle.svg" class="fixed bottom-20 right-20 w-0 lg:w-40 rotate-180 2xl:w-64 opacity-50" />
-    <img src="~/assets/svgs/sprinkle.svg" class="fixed top-20 right-20 w-0 lg:w-40 rotate-45 2xl:w-64 opacity-50" />
+    <Highlights icon="sprinkles" />
   </div>
 </template>
 
-<script setup>
-import projects from "~/assets/data/projects.json";
+<script setup lang="ts">
+import projects_json from "~/assets/data/projects.json";
+
+const projects : { [key: string]: Project } = projects_json;
 </script>
