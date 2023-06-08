@@ -14,10 +14,10 @@ export default defineNuxtConfig({
     css: [
         '@/assets/styles/main.scss',
     ],
-    colorMode: {
-        classSuffix: ''
-    },
     gtag: {
         id: 'G-QNLZ5NY7HH'
+    },
+    colorMode: {
+        classSuffix: ''
     }
 })
