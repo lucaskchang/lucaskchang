@@ -9,6 +9,7 @@ export default defineNuxtConfig({
         '@nuxtjs/tailwindcss',
         '@nuxtjs/color-mode',
         'nuxt-icon',
+        'nuxt-gtag',
     ],
     css: [
         '@/assets/styles/main.scss',
@@ -16,4 +17,7 @@ export default defineNuxtConfig({
     colorMode: {
         classSuffix: ''
     },
+    gtag: {
+        id: 'G-QNLZ5NY7HH'
+    }
 })
