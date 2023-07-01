@@ -19,5 +19,12 @@ export default defineNuxtConfig({
     },
     colorMode: {
         classSuffix: ''
+    },
+    plugins: [
+    {
+      src: '@/plugins/aos',
+      ssr: false,
+      mode: 'client'
     }
+  ],
 })
