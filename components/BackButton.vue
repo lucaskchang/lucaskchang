@@ -1,7 +1,9 @@
 <template>
-  <div class="fixed left-0 bottom-0 m-4">
+  <div class="fixed bottom-0 left-0 m-4">
     <NuxtLink to="/">
-      <button class="py-2 px-4 rounded-sm ring-4 ring-black dark:ring-slate-50 text-black dark:text-slate-50 font-semibold transition ease-in-out text-xl">
+      <button
+        class="rounded-sm px-4 py-2 text-xl font-semibold text-black ring-4 ring-black transition ease-in-out dark:text-slate-50 dark:ring-slate-50"
+      >
         Back
       </button>
     </NuxtLink>

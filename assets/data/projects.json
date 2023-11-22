@@ -9,25 +9,25 @@
       "description": "An analysis of Ed Sheeran lyrics",
       "link": "https://ed.lucaskchang.com"
     },
-    "Bay School XC/TF": {
-      "title": "Bay School XC/TF",
-      "description": "Player profiles and PRs for the Bay School's XC/TF team",
-      "link": "https://xctf.lucaskchang.com"
+    "15 Puzzle": {
+      "title": "15 Puzzle",
+      "description": "An interactive 15 puzzle with group theory representations",
+      "link": "https://15.lucaskchang.com"
     },
-    "Community Ecology": {
-      "title": "Community Ecology",
-      "description": "An explanation of community ecology",
-      "link": "https://ecology.lucaskchang.com"
-    },
-    "Data Visualizations": {
-      "title": "Data Visualizations",
-      "description": "A collection of my data visualization projects",
-      "link": "https://data.lucaskchang.com"
+    "100 Visualizations": {
+      "title": "100 Visualizations",
+      "description": "A collection of some of my data visualization projects",
+      "link": "https://100.lucaskchang.com"
     },
     "Crop and Machine Check": {
       "title": "Crop and Machine Check",
       "description": "A tool for farmers to check their crops and machines in Stardew Valley",
       "link": "https://www.nexusmods.com/users/121487748?tab=user+files"
+    },
+    "Car Dependency": {
+      "title": "Car Dependency",
+      "description": "A website about the dangers of car dependency",
+      "link": "https://ssp.lucaskchang.com"
     },
     "RNA Splicing": {
       "title": "RNA Splicing",
@@ -38,5 +38,15 @@
       "title": "Census Sampling",
       "description": "An explanation of how and why sampling can be used in the census",
       "link": "https://lukajaa.github.io/census-sample/#/"
+    },
+    "Community Ecology": {
+      "title": "Community Ecology",
+      "description": "An explanation of community ecology",
+      "link": "https://ecology.lucaskchang.com"
+    },
+    "Bay School XC/TF": {
+      "title": "Bay School XC/TF",
+      "description": "Player profiles and PRs for the Bay School's XC/TF team",
+      "link": "https://xctf.lucaskchang.com"
     }
 }
