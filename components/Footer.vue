@@ -23,7 +23,7 @@
       <a href="https://www.strava.com/athletes/96376228" target="_blank">
         <Icon name="mdi:strava" class="h-8 w-8 text-orange-500" />
       </a>
-      <a href="mailto:me@lucaskchang.com" target="_blank">
+      <a href="mailto:lucaskchang@gmail.com" target="_blank">
         <Icon name="mdi:email" class="h-8 w-8" />
       </a>
       <Icon
