@@ -1,24 +1,50 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  devtools: { enabled: true },
+
   app: {
     head: {
       title: 'Lucas K Chang',
+      htmlAttrs: {
+        lang: 'en',
+      },
+      link: [
+        {
+          rel: 'icon',
+          type: 'image/ico',
+          href: '/favicon.ico',
+        },
+      ],
     },
   },
+
+  css: ['@/assets/css/styles.scss'],
+
   modules: [
-    '@nuxtjs/eslint-module',
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/color-mode',
-    'nuxt-icon',
+    '@nuxt/ui',
+    '@nuxt/image',
+    '@nuxtjs/google-fonts',
     'nuxt-gtag',
+    '@nuxt/eslint',
   ],
-  css: ['@/assets/styles/main.scss'],
-  gtag: {
-    id: 'G-QNLZ5NY7HH',
-  },
+
   colorMode: {
     classSuffix: '',
   },
+
+  googleFonts: {},
+
+  gtag: {
+    id: 'G-QNLZ5NY7HH',
+  },
+
+  eslint: {
+    config: {
+      stylistic: true,
+    },
+  },
+
+  compatibilityDate: '2024-09-07',
   plugins: [
     {
       src: '@/plugins/aos',

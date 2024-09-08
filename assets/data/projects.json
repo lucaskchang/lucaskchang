@@ -4,15 +4,15 @@
       "description": "The schedule for the Bay School of San Francisco",
       "link": "https://bayclock.org"
     },
-    "Ed-nalysis": {
-      "title": "Ed-nalysis",
-      "description": "An analysis of Ed Sheeran lyrics",
-      "link": "https://ed.lucaskchang.com"
+    "Gary Lau Collection": {
+      "title": "Gary Lau Collection (Commission)",
+      "description": "A collection of Chinese antiques",
+      "link": "https://yklaucollection.org/"
     },
-    "15 Puzzle": {
-      "title": "15 Puzzle",
-      "description": "An interactive 15 puzzle with group theory representations",
-      "link": "https://15.lucaskchang.com"
+    "Wise Earth Blog": {
+      "title": "Wise Earth Blog",
+      "description": "A blog delivering current, concise, and informative energy information",
+      "link": "https://www.wise-earth.org/"
     },
     "100 Visualizations": {
       "title": "100 Visualizations",
@@ -24,9 +24,19 @@
       "description": "A tool for farmers to check their crops and machines in Stardew Valley",
       "link": "https://www.nexusmods.com/users/121487748?tab=user+files"
     },
-    "Car Dependency": {
-      "title": "Car Dependency",
-      "description": "A website about the dangers of car dependency",
+    "Ed-nalysis": {
+      "title": "Ed-nalysis",
+      "description": "An analysis of Ed Sheeran lyrics",
+      "link": "https://ed.lucaskchang.com"
+    },
+    "15 Puzzle": {
+      "title": "15 Puzzle",
+      "description": "An interactive 15 puzzle with group theory representations",
+      "link": "https://15.lucaskchang.com"
+    },
+    "Senior Signature Project": {
+      "title": "Senior Signature Project",
+      "description": "A website about the history of car dependency and possible solutions",
       "link": "https://ssp.lucaskchang.com"
     },
     "RNA Splicing": {
@@ -48,5 +58,10 @@
       "title": "Bay School XC/TF",
       "description": "Player profiles and PRs for the Bay School's XC/TF team",
       "link": "https://xctf.lucaskchang.com"
+    },
+    "The Best Rod (XC Presentation)": {
+      "title": "The Best Rod (XC Presentation)",
+      "description": "A presentation given to Tuft's Men's XC team on the best rod there is",
+      "link": "https://xc-rod.vercel.app/"
     }
 }

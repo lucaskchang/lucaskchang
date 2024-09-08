@@ -16,31 +16,36 @@
       class="flex flex-row justify-center text-2xl font-semibold md:mt-6 md:text-6xl"
     >
       <NuxtLink
-        class="flex flex-shrink flex-col transition ease-in-out hover:scale-105"
+        class="flex shrink flex-col transition ease-in-out hover:scale-105"
         to="/school"
       >
         <p>Student&nbsp;&nbsp;</p>
         <img
           src="~/assets/svgs/underline_short.svg"
           class="-mt-1 w-24 md:mt-0 md:w-max"
-        />
+        >
       </NuxtLink>
       <NuxtLink
-        class="flex flex-shrink flex-col items-center transition ease-in-out hover:scale-105"
+        class="flex shrink flex-col items-center transition ease-in-out hover:scale-105"
         to="/programming"
       >
         <p>Programmer&nbsp;&nbsp;</p>
         <img
           src="~/assets/svgs/loop.svg"
           class="-ml-3 -mt-8 w-40 md:-ml-6 md:-mt-20 md:w-max"
-        />
+        >
       </NuxtLink>
-      <NuxtLink class="flex flex-shrink flex-col" to="/running">
-        <p class="transition ease-in-out hover:scale-105">Runner</p>
+      <NuxtLink
+        class="flex shrink flex-col"
+        to="/running"
+      >
+        <p class="transition ease-in-out hover:scale-105">
+          Runner
+        </p>
         <img
           src="~/assets/svgs/arrow.svg"
-          class="ml-3 h-8 w-8 md:ml-5 md:h-20 md:w-20"
-        />
+          class="ml-3 size-8 md:ml-5 md:size-20"
+        >
       </NuxtLink>
     </div>
     <p
@@ -55,9 +60,11 @@
       <img
         src="~/assets/svgs/scroll_arrow.svg"
         alt="arrow"
-        class="h-24 w-24 transition ease-in-out hover:scale-105 md:h-32 md:w-32 2xl:h-48 2xl:w-48"
-      />
-      <p class="mt-4 text-2xl font-semibold text-blue-400">or scroll!</p>
+        class="size-24 transition ease-in-out hover:scale-105 md:size-32 2xl:size-48"
+      >
+      <p class="mt-4 text-2xl font-semibold text-blue-400">
+        or scroll!
+      </p>
     </div>
   </div>
 </template>
