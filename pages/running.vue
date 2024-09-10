@@ -9,19 +9,7 @@
         class="mx-auto"
       >
       <p class="my-10 text-2xl">
-        I've been running for fun since 3rd grade and I currently run
-        <a
-          href="https://www.athletic.net/athlete/18801645/cross-country/high-school"
-          target="_blank"
-          class="font-bold underline decoration-red-400 decoration-2 underline-offset-4"
-        >cross country</a>
-        and
-        <a
-          href="https://www.athletic.net/athlete/18801645/track-and-field/high-school"
-          target="_blank"
-          class="font-bold underline decoration-yellow-400 decoration-2 underline-offset-4"
-        >track</a>
-        at the Bay School of San Francisco
+        I currently run cross country and track at Tufts University. Previously, I ran for The Bay School of San Francisco.
       </p>
       <p class="text-5xl">
         Lifetime PRs
