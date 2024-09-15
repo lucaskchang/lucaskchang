@@ -63,5 +63,10 @@
       "title": "The Best Rod (XC Presentation)",
       "description": "A presentation given to Tuft's Men's XC team on the best rod there is",
       "link": "https://xc-rod.vercel.app/"
+    },
+    "Run Preservation Project Ratings": {
+      "title": "Run Preservation Project Ratings",
+      "description": "A website allowing users to rate runs on Tuft Men's XC's Run Preservation Project",
+      "link": "https://runpreservationproject.vercel.app/"
     }
 }
