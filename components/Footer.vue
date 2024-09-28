@@ -32,7 +32,7 @@
         />
       </a>
       <a
-        href="https://www.strava.com/athletes/96376228"
+        href="https://www.strava.com/athletes/lucaschang"
         target="_blank"
       >
         <Icon
