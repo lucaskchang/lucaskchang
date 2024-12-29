@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen w-full p-10">
+  <div class="p-10">
     <p class="text-center text-3xl font-bold md:text-7xl">
       Explore my Projects!
     </p>

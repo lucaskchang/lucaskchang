@@ -9,7 +9,15 @@
         class="mx-auto"
       >
       <p class="my-10 text-2xl">
-        I currently run cross country and track at Tufts University. Previously, I ran for The Bay School of San Francisco.
+        I currently run cross country and track at <a
+          href="https://tfrrs.org/athletes/8919563/Tufts/Lucas_Chang.html"
+          target="_blank"
+          class="font-bold underline decoration-blue-300 decoration-2 underline-offset-4"
+        >Tufts University</a>. Previously, I ran for <a
+          href="https://www.athletic.net/profile/LucasChang1/"
+          target="_blank"
+          class="font-bold underline decoration-blue-700 decoration-2 underline-offset-4"
+        >The Bay School of San Francisco</a>
       </p>
       <p class="text-5xl">
         Lifetime PRs
@@ -22,7 +30,7 @@
           3200m: 9:43<br>
           5k: 15:53<br>
           5k (XC): 16:12<br>
-          8k: 26:43 <br>
+          8k: 26:50 <br>
         </p>
         <div class="absolute left-36 top-8">
           <img

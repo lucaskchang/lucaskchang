@@ -1,12 +1,12 @@
 <template>
   <div
-    class="flex h-screen w-full flex-col items-center justify-center text-center"
+    class="flex h-screen 2xl:h-[80vh] w-full flex-col items-center justify-center text-center"
   >
     <p
-      class="text-5xl font-black md:text-9xl"
+      class="text-5xl font-black md:text-9xl select-none"
       @click="
-        firstName = 'Chucas';
-        lastName = 'Lang';
+        firstName = firstName === 'Lucas K'? 'Chucas': 'Lucas K';
+        lastName = lastName === 'Chang'? 'Lang': 'Chang';
       "
     >
       {{ firstName }}
@@ -54,7 +54,7 @@
       click one of us
     </p>
     <div
-      class="absolute bottom-16 lg:bottom-20 2xl:bottom-40"
+      class="absolute bottom-16 lg:bottom-20 2xl:bottom-80"
       @click="scroll()"
     >
       <img
