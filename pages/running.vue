@@ -17,7 +17,7 @@
           href="https://www.athletic.net/profile/LucasChang1/"
           target="_blank"
           class="font-bold underline decoration-blue-700 decoration-2 underline-offset-4"
-        >The Bay School of San Francisco</a>
+        >The Bay School of San Francisco</a>.
       </p>
       <p class="text-5xl">
         Lifetime PRs
